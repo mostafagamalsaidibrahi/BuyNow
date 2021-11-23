@@ -1,0 +1,59 @@
+<div class="inpts1">
+                                  <input type="text" placeholder="First name">
+                                  <input type="text" placeholder="Surname">
+                                </div>
+                        
+                                <div class="form-group">
+                                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="email address">
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New password">
+                                </div>
+                        
+                                <div class="form-group">
+                                  <label>Birthday</label><br>
+
+                                  <select id="day">
+                                  @for( $i=1 ; $i<=31 ; $i++)
+                                    <option value="{{ $i }}">{{ $i }}</option>
+                                  @endfor
+                                  </select>
+                                  <select id="day">
+                                    <option value="{{ $i }}"> Jan </option>
+                                    <option value="{{ $i }}"> Feb </option>
+                                    <option value="{{ $i }}"> Mar </option>
+                                    <option value="{{ $i }}"> Apr </option>
+                                    <option value="{{ $i }}"> May </option>
+                                    <option value="{{ $i }}"> Jun </option>
+                                    <option value="{{ $i }}"> Jul </option>
+                                    <option value="{{ $i }}"> Aug </option>
+                                    <option value="{{ $i }}"> Sept </option>
+                                    <option value="{{ $i }}"> Oct </option>
+                                    <option value="{{ $i }}"> Nov </option>
+                                    <option value="{{ $i }}"> Dec </option>
+
+                                  </select>
+                                  <select id="year">
+                                  @for( $i=1905 ; $i<=2020 ; $i++)
+                                    <option value="{{ $i }}">{{ $i }}</option>
+                                  @endfor
+                                  </select>
+                                </div>
+                    
+                                <div class="form-group3">
+                                    <label class="gender">Gender</label><br>
+                                    <input type="radio" id="user" name="type" value="user">
+                                    <label for="user">Female</label>
+                                    <input type="radio" id="work_owner" name="type" value="work_owner">
+                                    <label for="work_owner">Male</label>
+                                    <input type="radio" id="work_owner" name="type" value="work_owner">
+                                    <label for="work_owner">Custom</label>
+                                </div>
+                                <div class="form-group4">
+                                    <p>By clicking Sign Up, you agree to our Terms,
+                                       Data Policy and <br> Cookie Policy.
+                                        You may receive SMS notifications from us and <br> can opt out at any time.</p>
+                                        <button type="button" name="signUp">Sign Up</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>   

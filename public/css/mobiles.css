@@ -1,0 +1,83 @@
+.title > h1{
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 2px solid #f10000;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding: 10px;
+}
+.products .container .row{
+  width: 100%;
+}
+.products .container .row .data{
+  height: 400px;
+  border: 1px solid green;
+  width: 100%;
+}
+.products .container .row{
+  width: 100%;
+}
+.products .container .row .card{
+  padding: 20px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  border: none;
+  margin-bottom: 68px;
+}
+.products .container .row .card:hover{
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  margin-left: 70px;
+  margin-bottom: 68px;
+}
+.products .container .row .card > .card-img-top{
+  box-shadow: 0 0 10px #aaa;
+  padding-bottom: 10px;
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.products .container .row .card > .card-body{
+  padding: 0;
+}
+.products .container .row .card > .card-body > h5{
+  color: #f10000;
+  text-shadow: 0 0 2px #f10000;
+}
+.products .container .row .card > .card-body > p{
+  font-weight: bold;
+  text-align:center;
+}
+.products .container .row .card > .card-body > i{
+  color: #0fa90f;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.products .container .row .card > .card-body > i > span{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.products .container .row .card > .card-body > a{
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 5px 50px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.back{
+  margin-bottom: 100px;
+}
+.back > a{
+  border: 1px solid #f10000;
+  padding: 10px 80px;
+  background-color: #f10000;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+/*Rules*/
+html {
+    scroll-behavior: smooth;
+}
+.alert{
+  margin: 0px;
+}
+/*starting navbar*/
+ .navbar{
+  background-color: #000;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+.navbar-light .navbar-brand ,
+.navbar-light .navbar-brand:hover{
+  color: #fff;
+  font-size: 30px;
+}
+.navbar-light .navbar-brand > span{
+  color: #f10000;
+}
+.navbar .navbar-nav{
+  width: 70%;
+  margin-left: 30%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav
+.nav-link.active, .navbar-light .navbar-nav
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+  margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #f10000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f10000;
+}
+.navbar-light .navbar-nav .username ,
+.navbar-light .navbar-nav .username:hover{
+  border: 1px solid #fff;
+  cursor: auto;
+  color :#fff ;
+  background-color: #f10000;
+  border-radius: 30px;
+}
+/*ending navbar*/

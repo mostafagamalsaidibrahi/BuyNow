@@ -1,0 +1,168 @@
+/*Rules*/
+html {
+    scroll-behavior: smooth;
+}
+.alert{
+  margin: 0px;
+}
+/*starting navbar*/
+.cover-section{
+  background-image: url('../../images/coverImages.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.cover-section .back{
+  background-color: #00000061;
+  height: 100%;
+}
+.cover-section .navbar{
+  background-color: #000;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+.cover-section .navbar-light .navbar-brand{
+  color: #fff;
+  font-size: 30px;
+}
+.cover-section .navbar-light .navbar-brand > span{
+  color: #f10000;
+}
+
+.cover-section .navbar .navbar-nav{
+  width: 70%;
+  margin-left: 30%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav
+.nav-link.active, .navbar-light .navbar-nav
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+  margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #f10000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f10000;
+}
+.navbar-light .navbar-nav .username ,
+.navbar-light .navbar-nav .username:hover{
+  border: 1px solid #fff;
+  cursor: auto;
+  color :#fff ;
+  background-color: #f10000;
+  border-radius: 30px;
+}
+/*ending navbar*/
+/*starting content*/
+.cover-section .back .content{
+  height: 87%;
+  background-color: #00000061;
+}
+.cover-section .back .content > h1{
+  color: #fff;
+  font-family: Impact;
+  border-top: 2px solid #f10000;
+  border-bottom: 2px solid #f10000;
+  display: inline-block;
+  padding: 10px 0px;
+}
+.cover-section .back .content > h1 > span{
+  color: #f10000;
+}
+/*ending content*/
+
+/* starting taps */
+.taps-section{
+  width: 50%;
+  margin: auto;
+  height: 30%;
+}
+.taps-section .container .row .mobile ,
+.taps-section .container .row .electronics ,
+.taps-section .container .row .computer{
+  margin-bottom: 25px;
+}
+.taps-section .container .row .mobile a ,
+.taps-section .container .row .electronics a ,
+.taps-section .container .row .computer a {
+  margin-right: 50px;
+  border: 1px solid #f10000;
+  padding: 10px 50px;
+  background-color: #f10000;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+/* ending taps */
+
+/*starting footer*/
+.footer-section{
+  background-color: #000;
+}
+.footer-section > h1{
+  display: inline-block;
+  border-top: 2px solid #f10000;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+.footer-section .container .row .loginForm{
+  width: 50%;
+  margin: auto;
+}
+.footer-section .container .row .loginForm > form {
+  width: 70%;
+  margin: auto;
+}
+.footer-section .container .row .loginForm > form .form-group > input{
+  border: 1px solid #f10000;
+  background: none;
+  color: #f10000;
+}
+.footer-section .container .row .loginForm > form > button{
+  background: none;
+  border: 1px solid #f10000;
+  background-color: #f10000;
+  color: #fff;
+  font-weight: bold;
+}
+.loginForm > button{
+  background:none ;
+  border: 2px solid #f10000;
+  color: #f10000;
+}
+.loginForm > button:hover{
+  background:none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.modal .modal-dialog .modal-content{
+  background-color: #fff;
+}
+.modal .modal-dialog .modal-content .modal-header > button{
+  color: #f10000;
+  font-size: 40px;
+}
+.modal .modal-dialog .modal-content .modal-header > button:hover{
+  color: #000;
+  font-size: 40px;
+}
+.modal .modal-dialog .modal-content .modal-body > form > button{
+  background-color: #f10000;
+  border: 1px solid #f10000;
+}
+.footer-section .bookmark{
+  background-color: #000;
+  padding: 10px;
+  border-top: 1px solid #f10000;
+}
+.footer-section .bookmark > p{
+  overflow: hidden;
+  color: #fff;
+}
+/*ending footer*/

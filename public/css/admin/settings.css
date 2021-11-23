@@ -1,0 +1,40 @@
+.settings-section{
+  width: 100%;
+}
+.settings-section .container .row {
+  width: 100%;
+  text-align: center;
+}
+.settings-section .container .row .users-num{
+  background-color: #f10000;
+  color: #fff;
+}
+.settings-section .container .row .mobiles-num{
+  background-color: #000;
+  color: #fff;
+}
+.settings-section .container .row .computers-num{
+  background-color: #f10000;
+  color: #fff;
+}
+.settings-section .container .row .electronics-num{
+  background-color: #000;
+  color: #fff;
+}
+.settings-section .container .row .users-num ,
+.settings-section .container .row .mobiles-num ,
+.settings-section .container .row .computers-num ,
+.settings-section .container .row .electronics-num{
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.settings-section .container .row .users-num > h1 > i ,
+.settings-section .container .row .mobiles-num > h1 > i ,
+.settings-section .container .row .computers-num > h1 > i ,
+.settings-section .container .row .electronics-num > h1 > i ,
+.settings-section .container .row .users-num > h1 ,
+.settings-section .container .row .mobiles-num > h1 ,
+.settings-section .container .row .computers-num > h1 ,
+.settings-section .container .row .electronics-num > h1 {
+  color: #fff;
+}

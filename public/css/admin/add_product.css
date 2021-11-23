@@ -1,0 +1,26 @@
+.add-product{
+  width: 80%;
+  margin: auto;
+}
+.add-product > form > .form-group > input ,
+.add-product > form > .form-group > textarea ,
+.add-product > form > .form-group > select{
+  width: 50%;
+  margin: auto;
+  color: #f10000;
+}
+.add-product > form > .form-group > textarea {
+  height: 200px;
+}
+.add-product > form > .form-group > select {
+  padding: 10px;
+}
+.add-product > form > button ,
+.add-product > form > button:hover{
+  background-color: #f10000;
+  border: 1px solid #f10000;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+.taps-prods{
+  width: 60%;
+  margin: auto;
+}
+.taps-prods .nav{
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+.taps-prods .nav > li{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.taps-prods .nav > li:hover{
+  background-color: #f10000;
+  border: 1px solid #f10000;
+}
+.taps-prods .nav .active{
+  background-color: #f10000;
+  color: #fff;
+  border: 1px solid #f10000;
+}
+.taps-prods .nav .active > a{
+  text-decoration: none;
+  color: #fff;
+}
+.taps-prods .nav > li > a{
+  text-decoration: none;
+  color: #000;
+}
+.taps-prods .nav > li > a:hover{
+  color: #fff;
+}
